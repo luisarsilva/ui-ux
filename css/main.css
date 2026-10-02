@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85dvh;
+    padding: 50px;
+    
+}
+
+.hero-img, hero-text {
+    width: 50vw;
+}
+
+.hero-img img{
+    width: 600px; 
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    height: 100%;
+}
+
+.main-text h1{
+    font-size: 5.5rem;
+    font-weight: 900;
+    color: #f59a60;
+    margin-bottom: 20px;
+    &
+    span {
+        color: #222b3c;
+        background-color: #fff;
+        padding-inline: 10px;
+    }
+}
+
+.main-text{
+    width: 500px;
+}
